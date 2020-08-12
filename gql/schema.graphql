@@ -1,0 +1,19 @@
+type Practitioner {
+    id: ID!
+    name: String!
+    title: String!
+    picture: String
+    location: String!
+    domains: [Domain!]!
+}
+
+type Domain {
+    id: ID!
+    name: String!
+    icon: String
+    importance: Int!
+}
+
+type Query {
+    practitioners(skill: String!): [Practitioner!]!
+}

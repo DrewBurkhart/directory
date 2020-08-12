@@ -1,0 +1,110 @@
+db.practitioners.insert({
+    "name": "Alexander Easby",
+    "title": "Mental Skills Coach",
+    "location": "New York, NY",
+    "picture": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "domains": [
+        {"name": "Soccer", "icon": "js", "importance": 5},
+        {"name": "Football", "icon": "java", "importance": 0},
+        {"name": "Dance", "icon": "node-js", "importance": 5},
+        {"name": "Business", "importance": 0},
+        {"name": "Skiing", "icon": "angular", "importance": 1},
+        {"name": "Running", "icon": "html5", "importance": 1},
+        {"name": "Military", "icon": "css3-alt", "importance": 1}
+    ]
+});
+db.practitioners.insert({
+    "name": "Stephanie Hale",
+    "title": "Mental Skills Coach",
+    "location": "Bradenton, FL",
+    "picture": "https://images.pexels.com/photos/935969/pexels-photo-935969.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "domains": [
+        {"name": "Basketball", "icon": "swift", "importance": 5},
+        {"name": "Baseball", "importance": 6},
+        {"name": "Lacrosse", "importance": 0},
+        {"name": "Basketball", "importance": 1}
+    ]
+});
+db.practitioners.insert({
+    "name": "Dr. Jessica Bartley",
+    "title": "Mental Skills Coach",
+    "location": "Denver, CO",
+    "picture": "https://images.pexels.com/photos/804009/pexels-photo-804009.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "domains": [
+        {"name": "Tennis", "importance": 5},
+        {"name": "Racing", "importance": 0},
+        {"name": "Climbing", "icon": "monkey", "importance": 0},
+        {"name": "Football", "icon": "java", "importance": 0}
+    ]
+});
+db.practitioners.insert({
+    "name": "Dr. Mark Aoyagi",
+    "title": "Mental Skills Coach",
+    "location": "Denver, CO",
+    "picture": "https://images.pexels.com/photos/1091659/pexels-photo-1091659.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "domains": [
+        {"name": "Soccer", "icon": "js", "importance": 5},
+        {"name": "Rugby", "importance": 6},
+        {"name": "Dance", "icon": "node-js", "importance": 5},
+        {"name": "Programming", "icon": "aws", "importance": 3},
+        {"name": "First Responders", "icon": "react", "importance": 5},
+        {"name": "Children", "importance": 4},
+        {"name": "Running", "icon": "html5", "importance": 1},
+        {"name": "Military", "icon": "css3-alt", "importance": 1}
+    ]
+});
+db.practitioners.insert({
+    "name": "Dr. Jon Metzler",
+    "title": "Mental Skills Coach",
+    "location": "Georgetown, TX",
+    "picture": "https://images.pexels.com/photos/555790/pexels-photo-555790.png",
+    "domains": [
+        {"name": "Soccer", "icon": "js", "importance": 6},
+        {"name": "Rugby", "importance": 3},
+        {"name": "First Responders", "icon": "react", "importance": 5},
+        {"name": "Programming", "icon": "aws", "importance": 3},
+        {"name": "Running", "icon": "html5", "importance": 1},
+        {"name": "Military", "icon": "css3-alt", "importance": 1}
+    ]
+});
+db.practitioners.insert({
+    "name": "Mason Blake",
+    "title": "Mental Skills Coach",
+    "location": "Boston, MA",
+    "picture": "https://images.pexels.com/photos/245033/pexels-photo-245033.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "domains": [
+        {"name": "Weightlifting", "importance": 5},
+        {"name": "Racing", "importance": 1},
+        {"name": "Tennis", "importance": 1},
+        {"name": "Public Speaking", "icon": "android", "importance": 0},
+        {"name": "Programming", "icon": "aws", "importance": 1}
+    ]
+});
+db.practitioners.insert({
+    "name": "Joe Kennedy",
+    "title": "Mental Skills Coach",
+    "location": "Springfield, MA",
+    "picture": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "domains": [
+        {"name": "Football", "icon": "java", "importance": 5},
+        {"name": "Comedy", "icon": "python", "importance": 1},
+        {"name": "Gaming", "importance": 0},
+        {"name": "Politics", "importance": 0},
+        {"name": "Extreme Sports", "importance": 0},
+        {"name": "Programming", "icon": "aws", "importance": 3}
+    ]
+});
+db.practitioners.insert({
+    "name": "Ryan Ingalls",
+    "title": "Mental Skills Coach",
+    "location": "Bradenton, FL",
+    "picture": "https://images.pexels.com/photos/3487734/pexels-photo-3487734.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "domains": [
+        {"name": "Football", "icon": "java", "importance": 5},
+        {"name": "Comedy", "icon": "python", "importance": 1},
+        {"name": "Equestrian", "importance": 0},
+        {"name": "Public Speaking", "icon": "android", "importance": 0},
+        {"name": "MMA", "importance": 0},
+        {"name": "Programming", "icon": "aws", "importance": 6}
+    ]
+});
