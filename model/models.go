@@ -8,6 +8,7 @@ type Practitioner struct {
 	Title    string    `json:"title"`
 	Picture  *string   `json:"picture"`
 	Location string    `json:"location"`
+	Test	 string	   `json:"test"`
 	Domains  []*Domain `json:"domains"`
 }
 
